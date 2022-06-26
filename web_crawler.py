@@ -59,8 +59,8 @@ def paragraph(listing_final,xyz,keyword):
     mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="1234",
-    database="minor_2"
+    password="enter password",
+    database="enter database name"
     )
 
     my_cursor=mydb.cursor()
